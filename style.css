@@ -233,12 +233,6 @@ body.dark .hero-overlay {
     display: inline-block;
 }
 
-body:not(.dark) .btn-secondary {
-    background: rgba(245, 240, 255, 0.95);
-    color: #2d1b4e;
-    border-color: #d4c4e8;
-}
-
 body:not(.dark) .btn-secondary:hover {
     background: linear-gradient(135deg, #9b59b6, #bb8fce);
     color: white;
@@ -539,6 +533,21 @@ body.dark .skill-chip:hover {
     border-color: var(--accent-primary);
 }
 
+.connect-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.connect-subtitle {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.connect-details {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
 .connect-buttons {
     display: flex;
     justify-content: center;
